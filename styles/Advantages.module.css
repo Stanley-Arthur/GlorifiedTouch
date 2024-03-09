@@ -1,0 +1,17 @@
+/* Advantages.module.css */
+
+/* Styles for the Advantages container */
+.advContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .advContainer {
+      flex-direction: column;
+    }
+  }

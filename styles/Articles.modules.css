@@ -1,0 +1,29 @@
+/* Articles.module.css */
+
+/* Styles for the Articles section */
+.margin-on-side {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Styles for the row of articles */
+  .row.aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Styles for the "View All" button */
+  .row.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .row.aside {
+      flex-direction: column;
+    }
+  }
+  
