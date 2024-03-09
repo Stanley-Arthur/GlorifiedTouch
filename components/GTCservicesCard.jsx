@@ -12,15 +12,15 @@ const GTCservicesCard = () => {
                 Glorified Touch Care: Your Trusted Partner for Respite Home Care.
                 </h1>
                 <p className='text-gray-500  text-2xl'>
-                It's only natural to harbor concerns about the well-being of your aging loved ones as they gracefully enter their golden years. At Glorified Touch Care, we understand the challenges families face in providing round-the-clock care, ensuring proper nutrition, medication management, safe bathing and dressing, and attending crucial appointments and social events.
+                It&apos;s only natural to harbor concerns about the well-being of your aging loved ones as they gracefully enter their golden years. At Glorified Touch Care, we understand the challenges families face in providing round-the-clock care, ensuring proper nutrition, medication management, safe bathing and dressing, and attending crucial appointments and social events.
                 </p>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Why Choose Glorified Touch Care for Respite Home Care?</h1>
-                    <p className='text-gray-500  text-xl'>Our team at Glorified Touch Care, based in Des Moines, IA, stands as a reliable beacon of support for seniors and their families. Our highly trained, dependable, and compassionate respite caregivers offer assistance on an as-needed basis. This allows seniors to receive help precisely when they need it, empowering families to take moments to relax or attend to other responsibilities.</p>
+                    <p className='text-gray-500  text-xl'>Our team at Glorified Touch Care, based  stands as a reliable beacon of support for seniors and their families. Our highly trained, dependable, and compassionate respite caregivers offer assistance on an as-needed basis. This allows seniors to receive help precisely when they need it, empowering families to take moments to relax or attend to other responsibilities.</p>
                 </div>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Available Around the Clock</h1>
-                    <p className='text-gray-500  text-xl'>Whether it's the early hours of the morning, the late night, or any time in between, Glorified Touch Care is here to assist. Our goal is to help your elderly loved ones maintain a healthy and joyful life while comfortably aging in place.</p>
+                    <p className='text-gray-500  text-xl'>Whether it&apos;s the early hours of the morning, the late night, or any time in between, Glorified Touch Care is here to assist. Our goal is to help your elderly loved ones maintain a healthy and joyful life while comfortably aging in place.</p>
                 </div>
                 
             </div>
@@ -42,7 +42,7 @@ const GTCservicesCard = () => {
                 </p>
                 <div className='flex flex-col  w-full '>
                     <h1 className='text-2xl font-bold'>Why Choose Glorified Touch Care for Hospital Care?</h1>
-                    <p className='text-gray-500  text-xl'>Recognized as the preferred provider of hospital care by Des Moines families and medical professionals alike, Glorified Touch Care sets the standard for reliable and compassionate support. Our dedicated team of professional caregivers brings extensive experience in senior care, ensuring that your aging loved one receives individualized attention 24 hours a day.</p>
+                    <p className='text-gray-500  text-xl'>Recognized as the preferred provider of hospital care  families and medical professionals alike, Glorified Touch Care sets the standard for reliable and compassionate support. Our dedicated team of professional caregivers brings extensive experience in senior care, ensuring that your aging loved one receives individualized attention 24 hours a day.</p>
                 </div>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Compassionate Support, Anytime You Need</h1>
@@ -57,11 +57,11 @@ const GTCservicesCard = () => {
                 Compassionate Dementia Care
                 </h1>
                 <p className='text-gray-500  text-2xl'>
-                Facing a dementia diagnosis introduces uncertainty, challenging both seniors and their families. Seniors may question their ability to age in place without burdening their loved ones, while family members strive to find the best way to support their goals—keeping them safe, healthy, and comfortable. In such moments, many families opt for the preferred choice of in-home dementia care.
+                Facing a dementia diagnosis introduces uncertainty, challenging both seniors and their families. Seniors may question their ability to age in place without burdening their loved ones, while family members strive to find the best way to support their goals keeping them safe, healthy, and comfortable. In such moments, many families opt for the preferred choice of in-home dementia care.
                 </p>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Respected Dementia Care Services</h1>
-                    <p className='text-gray-500  text-xl'>Glorified Touch Care stands as a respected name in the home care industry, providing dependable professional caregiver services for seniors living with dementia. Our dedicated team collaborates with seniors and their family members to craft personalized dementia care plans tailored to each client's exact needs. Through one-on-one care within a familiar environment, we aim to preserve dignity, independence, and a higher quality of life.</p>
+                    <p className='text-gray-500  text-xl'>Glorified Touch Care stands as a respected name in the home care industry, providing dependable professional caregiver services for seniors living with dementia. Our dedicated team collaborates with seniors and their family members to craft personalized dementia care plans tailored to each client&apos;s exact needs. Through one-on-one care within a familiar environment, we aim to preserve dignity, independence, and a higher quality of life.</p>
                 </div>
                 
             </div>
