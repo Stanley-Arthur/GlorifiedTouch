@@ -37,7 +37,7 @@ const About= () => {
           
               <h1 className='text-3xl font-bold  '>Our Holistic Care Approach</h1>
               <p className='text-gray-500 mt-5 mb-5'>Understanding the factors that contribute to a longer and 
-              healthier life is a complex task, and there isn't a singular explanation for why some individuals 
+              healthier life is a complex task, and there isn&apos;t a singular explanation for why some individuals 
               experience more active years than others. However, one extraordinary place stands out as having a
                higher concentration of individuals living longer and healthier lives than anywhere else: Okinawa, Japan. 
                Scientists have recently delved into studying this community of seniors in search of insights that could 
@@ -45,8 +45,8 @@ const About= () => {
                Drawing inspiration from the findings of these centenarian studies, Home Care Assistance 
                has pioneered a revolutionary and proprietary approach to senior care. Our methodology is rooted
                 in the wisdom gathered from Okinawa, aiming to provide not just assistance but a comprehensive strategy for promoting longevity and well-being among seniors.</p>
-              <p className='text-gray-500'>The foundation of the Balanced Care Method™ is derived from extensive studies conducted on the remarkably long-lived elders in Okinawa, Japan. In this region, life spans exceeding 100 years are not uncommon, and what's even more noteworthy is the exceptional health and independence enjoyed by individuals well into their 70s, 80s, and beyond. The studied elders in Okinawa commonly exhibit excellent physical health, mental acuity, and inner tranquility.
-               The Balanced Care Method™ aims to distill the lifestyle factors that contribute to the creation of such long-lived and healthy individuals. At its core, the philosophy of this method can be encapsulated in two key words: moderation and variety. By emphasizing these principles, we strive to enhance the well-being, vitality, and independence of our seniors.</p>
+              <p className='text-gray-500'>The foundation of the Balanced Care Method is derived from extensive studies conducted on the remarkably long-lived elders in Okinawa, Japan. In this region, life spans exceeding 100 years are not uncommon, and what&apos;s even more noteworthy is the exceptional health and independence enjoyed by individuals well into their 70s, 80s, and beyond. The studied elders in Okinawa commonly exhibit excellent physical health, mental acuity, and inner tranquility.
+               The Balanced Care Method aims to distill the lifestyle factors that contribute to the creation of such long-lived and healthy individuals. At its core, the philosophy of this method can be encapsulated in two key words, moderation and variety. By emphasizing these principles, we strive to enhance the well-being, vitality, and independence of our seniors.</p>
             
             </div>
             <div className='md:w-[50%] w-full'>
@@ -61,11 +61,11 @@ const About= () => {
             <div className='md:w-[50%]  w-full flex  mx-3 items-center flex-col'>
           
               <h1 className='text-3xl font-bold  '>Exceptional Caregivers</h1>
-              <p className='text-gray-500 mt-5 mb-5'>At Glorified Touch Care, we hold the firm belief that caregivers play a pivotal role in shaping a positive home care experience. The caregiver you select becomes an integral part of your elderly loved one's daily life and a valuable resource for your family. Our meticulous hiring process is designed to identify the most dependable, compassionate, and seasoned in-home caregivers, ensuring that your loved ones receive the highest standard of care and support.</p>
-              <p className='text-gray-500'>With Glorified Touch Care by your side, your family can trust in the quality of care your loved one receives. We prioritize your peace of mind by being bonded and insured, providing workers' compensation for all employees, and handling their salaries and tax forms. Our qualified caregivers receive industry-leading 
+              <p className='text-gray-500 mt-5 mb-5'>At Glorified Touch Care, we hold the firm belief that caregivers play a pivotal role in shaping a positive home care experience. The caregiver you select becomes an integral part of your elderly loved one&apos;s daily life and a valuable resource for your family. Our meticulous hiring process is designed to identify the most dependable, compassionate, and seasoned in-home caregivers, ensuring that your loved ones receive the highest standard of care and support.</p>
+              <p className='text-gray-500'>With Glorified Touch Care by your side, your family can trust in the quality of care your loved one receives. We prioritize your peace of mind by being bonded and insured, providing workers&apos; compensation for all employees, and handling their salaries and tax forms. Our qualified caregivers receive industry-leading 
               wages and top-notch benefits. We pride ourselves on not imposing long-term contracts, 
               and all our senior care services are backed by a 100% satisfaction guarantee.
-               Your loved one's well-being is our priority, and we strive to exceed expectations in every aspect of our service.
+               Your loved one&apos;s well-being is our priority, and we strive to exceed expectations in every aspect of our service.
                </p>
                <p>To connect with a friendly and knowledgeable Care Manager promptly, please dial <span className='text-blue-300 underline'>(678) 643-6636</span> . Our dedicated staff members are available 24/7, ready to assist you with any inquiries and provide immediate support. Your well-being is our priority, and we are here to ensure you receive the assistance you need when you need it.</p>
             
@@ -95,7 +95,7 @@ In addition to our rigorous screening, our at-home caregivers undergo comprehens
           
               <h1 className='text-3xl font-bold  '>Premier Live-In and 24-Hour Care Services for Seniors</h1>
               <p className='text-gray-500 mt-5 mb-5'>While the natural aging process brings confidence and wisdom, some seniors also experience changes in health and mobility that make it difficult or dangerous to live at home independently. Fortunately, changes in a senior’s health no longer require relocation to an assisted living facility or nursing home. Live-in and 24-hour care from Glorified Touch Care provides seniors with highly trained and compassionate caregivers who deliver around-the-clock care in the comfort of home. With the help of our live-in caregivers, your elderly loved one can remain safe and comfortable while aging in place.  </p>
-              <p className='text-gray-500'>Numerous seniors benefit from our live-in care services, enhancing independence and quality of life at home, especially when facing age-related conditions like dementia, Alzheimer's, or Parkinson's. Our 24-hour care services are versatile, extending support wherever and whenever your aging loved one requires assistance. Whether it's bedside at the hospital, evenings at home, or during travel on vacation, our 24-hour caregivers are just a phone call away, ensuring continuous care and support.</p>
+              <p className='text-gray-500'>Numerous seniors benefit from our live-in care services, enhancing independence and quality of life at home, especially when facing age-related conditions like dementia, Alzheimer&apos;s, or Parkinson&apos;s. Our 24-hour care services are versatile, extending support wherever and whenever your aging loved one requires assistance. Whether it&apos;s bedside at the hospital, evenings at home, or during travel on vacation, our 24-hour caregivers are just a phone call away, ensuring continuous care and support.</p>
             
             </div>
           </div>
