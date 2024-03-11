@@ -1,6 +1,7 @@
 import { reviews } from '@/components/ReviewsData';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
+import Image from 'next/image'
 
 const Testimonials = () => {
   return (
@@ -29,7 +30,7 @@ const Testimonials = () => {
           {reviews.map((review) => (
             <SplideSlide key={review.id} className="flex items-center">
               <div className="flex justify-center items-center w-1/2  rounded-full overflow-hidden transition-opacity duration-100 ease-in-out">
-			   <img  src={review.image} alt="" className="rounded-full h-16 w-16 object-cover" />
+			   <Image  src={review.image} width={200} height={200} alt="" className="rounded-full h-16 w-16 object-cover" />
 			  </div>
               <div >
                 <div className="w-1/2 ml-8">

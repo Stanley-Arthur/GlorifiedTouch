@@ -36,8 +36,8 @@ const gtcservices = () => {
           <div className='flex justify-center items-center flex-col'>
             <div>
               <h1 className='text-3xl font-bold '> Ways to Calm a Loved One with Dementia</h1>
-              <p className='font-semibold mt-5 mb-5'>BY GLORIFIED TOUCH CARE 8 AM ON DECEMBER 8, 2023</p>
-              <p className='text-gray-500'>Dementia changes the way the brain works, and these changes could lead to aggressive behavior. As a family caregiver, you should remember your senior loved one&apos;s actions and negative thoughts aren&apos;t his or her fault and look for ways to manage the combative behavior. Continue reading to learn some things you can do to calm a loved one with dementia.</p>
+              <p className='font-semibold mt-5 mb-5'>BY GLORIFIED TOUCH CARE 8  AM ON DECEMBER 8, 2023</p>
+              <p className='text-gray-500'>Dementia changes the way the brain works, and these changes could lead to aggressive behavior. As a family caregiver, you should remember your senior loved one’s actions and negative thoughts aren’t his or her fault and look for ways to manage the combative behavior. Continue reading to learn some things you can do to calm a loved one with dementia.</p>
               <div className='font-bold space-y-3 text-xl'>
                 <p className='flex flex-row space-x-2 '>
                   <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
@@ -53,7 +53,7 @@ const gtcservices = () => {
                 </p>
                 <p className='flex flex-row space-x-2  '>
                 <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
-                Sensory Stimulation
+                Check Your Loved One’s Comfort Levels
                 </p>
                 <p className='flex flex-row space-x-2 '>
                   
