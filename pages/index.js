@@ -125,19 +125,45 @@ import Services from "../components/Services";
 import Testimonials from "./testimonials";
 import data from "../constants/data";
 import Head from "next/head";
+import Drift from "@/components/drift";
 
 export default function Home(props) {
 	return (
 		<div>
 			<Head>
+				
 				<title>GLORIFIED TOUCH CARE - Your Trusted Health Partner</title>
+				
 				<meta
 					name="viewport"
 					content="initial-scale=1.0, width=device-width"
 				/>
 				<link rel="shortcut icon" href="/public/favicon.ico" />
+
+			
+				
+
+				
 			</Head>
 			{/* <Navbar /> */}
+			
+			<div>
+			{/* Other content of your component */}
+			<Drift
+				appId="hhgg7b7c3tag"
+				userId="USER_ID_IF_AVAILABLE"
+				attributes={{ email: "glorifiedtouchcare@gmail.com", company: "Glorified Touch Care" }}
+
+				eventHandlers={[ /* EVENT_HANDLERS_IF_AVAILABLE */ ]}
+				style={{
+					backgroundColor: "#0000ff", // Background color
+					color: "#333333", // Text color
+					borderRadius: "8px", // Border radius
+					// Add more custom styles as needed
+				  }}
+			/>
+			</div>
+
 			{/* Hero Section */}
 			<Hero />
 			{/* Our Services Section */}
@@ -154,6 +180,8 @@ export default function Home(props) {
 			{/* <Footer /> */}
 		</div>
 	);
+
+	
 }
 export async function getStaticProps(context) {
 	return {

@@ -12,9 +12,6 @@ const Articles = ({ articles }) => {
 					return <ArticleCard key={item.id} data={item} />;
 				})}
 			</div>
-			<div className="row center">
-				<Button text={"Contact  US"} />
-			</div>
 		</section>
 	);
 };

@@ -32,20 +32,20 @@ const gtcservices = () => {
       </div>
 
       <div className='w-full flex items-center justify-center '>
-        <div className='flex items-center w-[90%] justify-center  flex-col md:flex-row  min-h-screen mt-5'>
-          <div className='md:w-[50%]  w-full flex justify-center  items-center flex-col'>
+        <div className='grid grid-cols-1 md:grid-cols-2 items-center w-[90%] justify-center min-h-screen mt-5'>
+          <div className='flex justify-center items-center flex-col'>
             <div>
               <h1 className='text-3xl font-bold '> Ways to Calm a Loved One with Dementia</h1>
-              <p className='font-semibold mt-5 mb-5'>BY GLORIFIED TOUCH CARE 8  AM ON DECEMBER 8, 2023</p>
-              <p className='text-gray-500'>Dementia changes the way the brain works, and these changes could lead to aggressive behavior. As a family caregiver, you should remember your senior loved one’s actions and negative thoughts aren’t his or her fault and look for ways to manage the combative behavior. Continue reading to learn some things you can do to calm a loved one with dementia.</p>
+              <p className='font-semibold mt-5 mb-5'>BY GLORIFIED TOUCH CARE 8 AM ON DECEMBER 8, 2023</p>
+              <p className='text-gray-500'>Dementia changes the way the brain works, and these changes could lead to aggressive behavior. As a family caregiver, you should remember your senior loved one&apos;s actions and negative thoughts aren&apos;t his or her fault and look for ways to manage the combative behavior. Continue reading to learn some things you can do to calm a loved one with dementia.</p>
               <div className='font-bold space-y-3 text-xl'>
                 <p className='flex flex-row space-x-2 '>
                   <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
-                  Identify The Problem
+                  Warm Baths
                 </p>
                 <p className='flex flex-row space-x-2 '>
                   <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
-                  Remove Background Distractions
+                  Remove Distractions
                 </p>
                 <p className='flex flex-row space-x-2  '>
                 <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
@@ -53,12 +53,12 @@ const gtcservices = () => {
                 </p>
                 <p className='flex flex-row space-x-2  '>
                 <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
-                Check Your Loved One’s Comfort Levels
+                Sensory Stimulation
                 </p>
                 <p className='flex flex-row space-x-2 '>
                   
                 <Image src={images.checkmark}  className='mr-4' alt='' width={30} height={20}/>
-                Distract & Redirect
+                Breathing Exercises
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const gtcservices = () => {
             Glorified Touch Care is here to help. To schedule a free in-home consultation, give us a call at (678) 643-6636 today.  
             </p>
           </div>
-          <div className='md:w-[50%] w-full'>
+          <div className='flex justify-center items-center'>
             <Image className='w-[500px] h-96 object-cover' src={images.article1}  width={500} height={500} alt='' />
           </div>
         </div>
@@ -75,7 +75,7 @@ const gtcservices = () => {
       </div>
 
       <div className='flex  bg-gray-100 pt-10 pb-24 flex-col w-full '>
-        <div className='w-full flex justify-center items-center mb-10'><h1 className='text-2xl font-bold '>Our Security Services</h1></div>
+        <div className='w-full flex justify-center items-center mb-10'><h1 className='text-2xl font-bold '>Our Services</h1></div>
 
         <div className='flex justify-center mt-10 items-center'>
 
@@ -93,7 +93,7 @@ const gtcservices = () => {
                   </h1> 
                 </div>
                 <p >
-                Whether it’s early in the morning, late at night, or any time in between, we’re available to help your elderly loved one remain healthy and happy while aging in place.
+                Whether it&apos;s early in the morning, late at night, or any time in between, we&apos;re available to help your elderly loved one remain healthy and happy while aging in place.
                 </p>
               </div>
             </div>
@@ -111,7 +111,7 @@ const gtcservices = () => {
                   </h1> 
                 </div>
                 <p >
-                Our highly trained caregivers and expert Care Managers work together with the doctors, nurses, patient and their family members to ensure all of the care recipient’s needs are met.
+                Our highly trained caregivers and expert Care Managers work together with the doctors, nurses, patient and their family members to ensure all of the care recipient&apos;s needs are met.
                 </p>
               </div>
             </div>
@@ -129,7 +129,7 @@ const gtcservices = () => {
                   </h1> 
                 </div>
                 <p >
-                The Cognitive Therapeutics Method™ is Glorified Touch Care’s proprietary program designed to promote brain health and quality of life through cognitively stimulating activities in the familiar home environment.
+                The Cognitive Therapeutics Method™ is Glorified Touch Care&apos;s proprietary program designed to promote brain health and quality of life through cognitively stimulating activities in the familiar home environment.
                 </p>
               </div>
             </div>

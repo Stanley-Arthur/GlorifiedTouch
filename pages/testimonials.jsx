@@ -23,7 +23,7 @@ const Testimonials = () => {
             rewind: true,
             rewindByDrag: true,
             type:"fade",
-            heightRatio:0.5,
+            heightRatio:0,
           }}
         >
           {reviews.map((review) => (

@@ -27,7 +27,7 @@ const Footer = () => {
 			</div>
 			<div className='flex text-gray-500 hover:text-white '> 
 				<GoLocation size={25} className='pr-2 text-yellow-300'/>
-				<p>	1934 Pair Rd SQ, Marietta. GA 30008 </p>
+				<p>	1934 Pair Rd SW, Marietta. GA 30008 </p>
 			</div>
 			<div className='flex  text-gray-500 hover:text-white '>
 				{/* <AiFillPhone size={25} className='pr-2 text-yellow-300'/> */}

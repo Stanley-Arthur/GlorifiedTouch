@@ -16,11 +16,11 @@ const GTCservicesCard = () => {
                 </p>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Why Choose Glorified Touch Care for Respite Home Care?</h1>
-                    <p className='text-gray-500  text-xl'>Our team at Glorified Touch Care, based in Des Moines, IA, stands as a reliable beacon of support for seniors and their families. Our highly trained, dependable, and compassionate respite caregivers offer assistance on an as-needed basis. This allows seniors to receive help precisely when they need it, empowering families to take moments to relax or attend to other responsibilities.</p>
+                    <p className='text-gray-500  text-xl'>Our team at Glorified Touch Care, based in  stands as a reliable beacon of support for seniors and their families. Our highly trained, dependable, and compassionate respite caregivers offer assistance on an as-needed basis. This allows seniors to receive help precisely when they need it, empowering families to take moments to relax or attend to other responsibilities.</p>
                 </div>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Available Around the Clock</h1>
-                    <p className='text-gray-500  text-xl'>Whether it's the early hours of the morning, the late night, or any time in between, Glorified Touch Care is here to assist. Our goal is to help your elderly loved ones maintain a healthy and joyful life while comfortably aging in place.</p>
+                    <p className='text-gray-500  text-xl'>Whether it&apos;s the early hours of the morning, the late night, or any time in between, Glorified Touch Care is here to assist. Our goal is to help your elderly loved ones maintain a healthy and joyful life while comfortably aging in place.</p>
                 </div>
                 
             </div>
@@ -61,7 +61,7 @@ const GTCservicesCard = () => {
                 </p>
                 <div className='flex flex-col  w-full'>
                     <h1 className='text-2xl font-bold'>Respected Dementia Care Services</h1>
-                    <p className='text-gray-500  text-xl'>Glorified Touch Care stands as a respected name in the home care industry, providing dependable professional caregiver services for seniors living with dementia. Our dedicated team collaborates with seniors and their family members to craft personalized dementia care plans tailored to each client's exact needs. Through one-on-one care within a familiar environment, we aim to preserve dignity, independence, and a higher quality of life.</p>
+                    <p className='text-gray-500  text-xl'>Glorified Touch Care stands as a respected name in the home care industry, providing dependable professional caregiver services for seniors living with dementia. Our dedicated team collaborates with seniors and their family members to craft personalized dementia care plans tailored to each client&apos;s exact needs. Through one-on-one care within a familiar environment, we aim to preserve dignity, independence, and a higher quality of life.</p>
                 </div>
                 
             </div>
