@@ -8,31 +8,34 @@ import { CloudLightning } from "react-feather";
 import Banner from "./Banner";
 
 const Navbar = () => {
-	const [hidden, setHindden] = React.useState(true);
+	const [hidden, setHidden] = React.useState(true);
+
 	return (
 		<nav>
-			<div className={`  margin-on-side row ${styles.navContainer}`}>
+			<div className={`margin-on-side row ${styles.navContainer}`}>
 				{/* logo */}
-				<Image src={images.logo} alt="Health is Wealth" className="text-white overflow-hidden w-[180px] h-[180px]" />
+				<Image
+					src={images.logo}
+					alt="Health is Wealth"
+					className="text-white overflow-hidden w-[180px] h-[180px]"
+				/>
 				{/* nav-links */}
 				<ul
 					className={`row ${styles.navLinks} ${
 						hidden ? styles.hide : styles.show
 					}`}
 					onClick={() => {
-						setHindden((current) => !current);
+						setHidden((current) => !current);
 					}}
 				>
-					<div
-						className={`${styles.navMenuButton} ${styles.insideContainer}`}
-					>
+					<div className={`${styles.navMenuButton} ${styles.insideContainer}`}>
 						<HamburgerButton
 							strokeWidth={3}
 							open={!hidden}
 							animationDuration={0.5}
 							onClick={(e) => {
 								e.stopPropagation();
-								setHindden((current) => {
+								setHidden((current) => {
 									return !current;
 								});
 							}}
@@ -42,23 +45,23 @@ const Navbar = () => {
 						/>
 					</div>
 					<li
-						className={` ${styles.activeNavLink} text-dark-gray ${styles.navLink}`}
+						className={`${styles.activeNavLink} text-dark-gray ${styles.navLink}`}
 						onClick={(e) => {
 							e.stopPropagation();
 						}}
 					>
 						<Link href="/">Home</Link>
 					</li>
-					<li className={` text-dark-gray ${styles.navLink}`}>
+					<li className={`text-dark-gray ${styles.navLink}`}>
 						<Link href="/gtcservices">Services</Link>
 					</li>
-					<li className={` text-dark-gray ${styles.navLink}`}>
+					<li className={`text-dark-gray ${styles.navLink}`}>
 						<Link href="/contact">Contact Us</Link>
 					</li>
-					<li className={` text-dark-gray ${styles.navLink}`}>
+					<li className={`text-dark-gray ${styles.navLink}`}>
 						<Link href="#testimonials">Testimonials</Link>
 					</li>
-					<li className={` text-dark-gray ${styles.navLink}`}>
+					<li className={`text-dark-gray ${styles.navLink}`}>
 						<Link href="/about">About us</Link>
 					</li>
 				</ul>
@@ -68,7 +71,7 @@ const Navbar = () => {
 						open={!hidden}
 						animationDuration={0.5}
 						onClick={() =>
-							setHindden((current) => {
+							setHidden((current) => {
 								return !current;
 							})
 						}
@@ -77,7 +80,7 @@ const Navbar = () => {
 					/>
 				</div>
 			</div>
-			<Banner/>
+			<Banner />
 		</nav>
 	);
 };
