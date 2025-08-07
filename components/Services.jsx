@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import * as styles from "../styles/Services.module.css";

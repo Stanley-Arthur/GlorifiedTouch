@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 // import * as styles from "../styles/Articles.module.css";
 import ArticleCard from "./ArticleCard";

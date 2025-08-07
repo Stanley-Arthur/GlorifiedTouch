@@ -1,3 +1,6 @@
+'use client';
+
+
 import React from "react";
 import * as styles from "../styles/Footer.module.css";
 import { GoLocation } from 'react-icons/go';

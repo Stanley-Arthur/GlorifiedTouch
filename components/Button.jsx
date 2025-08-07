@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import * as styles from "../styles/Button.module.css";
 const Button = ({ fill = "outline", extraStyles, text }) => {

@@ -1,4 +1,4 @@
-
+'use client';
 import { sendContactForm } from "@/lib/api";
 import { Button, Container, FormControl, FormErrorMessage, FormLabel, Heading,Input, Textarea, useToast, Text } from "@chakra-ui/react";
 import { useState } from "react";
