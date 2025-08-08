@@ -1,13 +1,9 @@
 'use client';
 
 import { headers } from '@/next.config'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {AiOutlineMail} from 'react-icons/ai'
 import {AiOutlineMobile,AiOutlineClockCircle} from 'react-icons/ai'
-
-
-
-
 
 
 
