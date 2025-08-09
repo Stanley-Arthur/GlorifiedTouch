@@ -1,4 +1,4 @@
-'use client';
+
 import React from "react";
 import images from "../constants/images";
 import * as styles from "../styles/Advantages.module.css";

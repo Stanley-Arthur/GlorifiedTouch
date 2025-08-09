@@ -1,4 +1,4 @@
-'use client';
+
 import React from "react";
 import { ArrowLeft, ArrowRight } from "react-feather";
 export const NextButton = ({ clickHandler, isEnabled }) => {

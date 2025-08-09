@@ -1,27 +1,25 @@
 'use client';
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import images from "../constants/images";
 import * as styles from "../styles/Navbar.module.css";
-import { Sling as Hamburger } from "hamburger-react"; // new import
+import { Sling as Hamburger } from "hamburger-react";
 import Banner from "./Banner";
 
 const Navbar = () => {
-	const [hidden, setHidden] = React.useState(true);
+	const [hidden, setHidden] = useState(true);
 
 	return (
 		<nav>
 			<div className={`margin-on-side row ${styles.navContainer}`}>
-				{/* logo */}
 				<Image
 					src={images.logo}
 					alt="Health is Wealth"
 					className="text-white overflow-hidden w-[180px] h-[180px]"
 				/>
 
-				{/* nav-links */}
 				<ul
 					className={`row ${styles.navLinks} ${hidden ? styles.hide : styles.show}`}
 					onClick={() => setHidden(true)}
@@ -29,15 +27,12 @@ const Navbar = () => {
 					<div className={`${styles.navMenuButton} ${styles.insideContainer}`}>
 						<Hamburger
 							toggled={!hidden}
-							toggle={() => setHidden((prev) => !prev)}
+							toggle={() => setHidden(prev => !prev)}
 							size={20}
 							color="white"
 						/>
 					</div>
-					<li
-						className={`${styles.activeNavLink} text-dark-gray ${styles.navLink}`}
-						onClick={(e) => e.stopPropagation()}
-					>
+					<li className={`${styles.activeNavLink} text-dark-gray ${styles.navLink}`} onClick={e => e.stopPropagation()}>
 						<Link href="/">Home</Link>
 					</li>
 					<li className={`text-dark-gray ${styles.navLink}`}>
@@ -54,11 +49,10 @@ const Navbar = () => {
 					</li>
 				</ul>
 
-				{/* mobile hamburger */}
 				<div className={`${styles.navMenuButton}`}>
 					<Hamburger
 						toggled={!hidden}
-						toggle={() => setHidden((prev) => !prev)}
+						toggle={() => setHidden(prev => !prev)}
 						size={20}
 						color="white"
 					/>

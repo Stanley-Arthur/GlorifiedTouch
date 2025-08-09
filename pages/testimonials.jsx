@@ -1,4 +1,4 @@
-"use client";
+
 
 import { reviews } from '@/components/ReviewsData';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
