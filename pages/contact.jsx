@@ -2,7 +2,7 @@
 import { sendContactForm } from "@/lib/api";
 import { Button, Container, FormControl, FormErrorMessage, FormLabel, Heading,Input, Textarea, useToast, Text } from "@chakra-ui/react";
 import { useState } from "react";
-import Testimonials from "./testimonials";
+
 
 const initValues={name:"",email:"", subject:"",message:""}
 const initState = {values:initValues}
@@ -111,7 +111,7 @@ export default function Contact(){
       
       </Container>
   </div>
-  <Testimonials/>
+  
     </div>
   )
 } 

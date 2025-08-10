@@ -9,7 +9,7 @@ import { GiLovers,GiSelfLove,GiGloves } from "react-icons/gi";
 import { FaHandsHelping } from "react-icons/fa";
 import { PiGarageFill } from "react-icons/pi";
 import { MdOutlineFamilyRestroom } from "react-icons/md";
-import Testimonials from './testimonials'
+
 const gtcservices = () => {
   return (
     <div className='flex flex-col gap-y-4'>
@@ -194,7 +194,7 @@ const gtcservices = () => {
          
   
       </div> 
-      <Testimonials/>
+      
       <GTCservicesCard/>
     </div>
 
