@@ -6,7 +6,7 @@ import Post from '@/components/POST'
 import images from '@/constants/images'
 
 // Dynamically import Testimonials with no SSR (client-only)
-const Testimonials = dynamic(() => import('./testimonials'), { ssr: false })
+// const Testimonials = dynamic(() => import('./testimonials'), { ssr: false })
 
 const About = () => {
   return (
@@ -88,7 +88,7 @@ const About = () => {
       </div>
 
       {/* Client-only Testimonials */}
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   )
 }
