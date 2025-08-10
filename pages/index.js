@@ -1,3 +1,5 @@
+
+
 import dynamic from 'next/dynamic';
 import Advantages from "../components/Advantages";
 import Articles from "../components/Articles";
