@@ -1,4 +1,4 @@
-
+'use client'
 import React from "react";
 import * as styles from "../styles/SectionHeading.module.css"
 const SectionHeading = ({ headingTitle = "Placeholder", color = "black" }) => {
