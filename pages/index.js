@@ -3,15 +3,13 @@
 import dynamic from 'next/dynamic';
 import Advantages from "../components/Advantages";
 import Articles from "../components/Articles";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import data from "../constants/data";
 import Head from "next/head";
 
 // Dynamically import components with client-only rendering
-const Testimonials = dynamic(() => import('./testimonials'), { ssr: false });
+const Testimonials = dynamic(() => import('../components/testimonials'), { ssr: false });
 const DriftWidget = dynamic(() => import('@/components/DriftWidget'), { ssr: false });
 
 export default function Home(props) {
