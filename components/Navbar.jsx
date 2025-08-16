@@ -9,6 +9,7 @@ import { Sling as Hamburger } from "hamburger-react";
 import Banner from "./Banner";
 
 const Navbar = () => {
+	
 	const [hidden, setHidden] = useState(true);
 
 	return (
